@@ -1,6 +1,33 @@
-<div class="flex flex-col gap-6">
+<div id="projects" class="flex flex-col gap-6">
   <h2 class="text-3xl font-bold text-slate-100">Projetos</h2>
-  <app-card-project></app-card-project>
-  <app-card-project></app-card-project>
-  <app-card-project></app-card-project>
+  <app-card-project
+    [title]="'Agenda Virtual'"
+    [icon]="'../../../assets/FluigIcon.png'"
+    [text]="
+      'Apresento a Agenda Virtual Fluig: Sua Solução Completa de Gerenciamento de
+  Tempo Gerencie sua agenda de forma eficiente e eficaz com a Agenda Virtual
+  Fluig, uma ferramenta poderosa e intuitiva que se integra perfeitamente ao
+  seu dia a dia.'
+    "
+    [projectImg]="'../../../assets/agenda-virtual.png'"
+  ></app-card-project>
+  <app-card-project
+    [title]="'Notes'"
+    [icon]="'../../../assets/TypeScript.png'"
+    [text]="
+      'Este projeto tem como objetivo desenvolver um aplicativo amigável que permita aos usuários capturar e organizar suas notas usando tanto a entrada de texto quanto a voz. O aplicativo incorporará tecnologia de reconhecimento de fala para converter notas faladas em texto escrito, proporcionando uma experiência de anotações acessível e eficiente.'
+    "
+    [projectImg]="'../../../assets/nlw-expert.gif'"
+  ></app-card-project>
+  <app-card-project
+    [title]="'Agenda Virtual'"
+    [icon]="'../../../assets/FluigIcon.png'"
+    [text]="
+      'Apresento a Agenda Virtual Fluig: Sua Solução Completa de Gerenciamento de
+Tempo Gerencie sua agenda de forma eficiente e eficaz com a Agenda Virtual
+Fluig, uma ferramenta poderosa e intuitiva que se integra perfeitamente ao
+seu dia a dia.'
+    "
+    [projectImg]="'../../../assets/agenda-virtual.png'"
+  ></app-card-project>
 </div>

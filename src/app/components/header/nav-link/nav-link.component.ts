@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-
 @Component({
   selector: 'app-nav-link',
   standalone: true,
@@ -10,6 +9,5 @@ import { Component, Input } from '@angular/core';
 export class NavLinkComponent {
   @Input() text: string = '';
   @Input() link: string = '';
-
   constructor() {}
 }

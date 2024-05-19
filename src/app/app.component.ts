@@ -8,10 +8,18 @@ import { StacksComponent } from './components/stacks/stacks.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent,AboutComponent, ProjectsComponent, StacksComponent],
+  imports: [
+    RouterOutlet,
+    HeaderComponent,
+    AboutComponent,
+    ProjectsComponent,
+    StacksComponent,
+  ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
   title = 'portfolio-angular';
+
+
 }
