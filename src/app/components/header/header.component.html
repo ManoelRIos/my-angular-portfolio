@@ -3,10 +3,10 @@
     class="p-4 bg-slate-900 bg-gradient-to-r from-transparent to-slate-950 bg-opacity-70 rounded-lg text-slate-300 font-bold font-lg flex align-center justify-between gap-4"
   >
     <div class="flex align-center gap-4">      
-      <app-nav-link class="max-sm:hidden" [text]="'<MR/>'"></app-nav-link>
-      <app-nav-link [text]="'About'"></app-nav-link>
-      <app-nav-link [text]="'Projects'"></app-nav-link>
-      <app-nav-link [text]="'Contact'"></app-nav-link>            
+      <app-nav-link class="max-sm:hidden" [link]="'./'" [text]="'<MR/>'"></app-nav-link>
+      <app-nav-link [link]="'#about'" [text]="'About'"></app-nav-link>
+      <app-nav-link [link]="'#projects'" [text]="'Projects'"></app-nav-link>
+      <app-nav-link [link]="'#stacks'" [text]="'Stacks'"></app-nav-link>            
     </div>
 
     <div class="flex align-center gap-4">

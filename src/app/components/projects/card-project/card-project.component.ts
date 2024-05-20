@@ -12,4 +12,5 @@ export class CardProjectComponent {
   @Input() title: string = '';
   @Input() text: string = '';
   @Input() projectImg: string = '';
+  @Input() visitUrl: string = '';
 }

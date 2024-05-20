@@ -19,7 +19,6 @@ import { StacksComponent } from './components/stacks/stacks.component';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'portfolio-angular';
 
 
 }
