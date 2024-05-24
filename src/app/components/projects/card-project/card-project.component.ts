@@ -1,9 +1,10 @@
+import { NgIf } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-project',
   standalone: true,
-  imports: [],
+  imports: [NgIf],
   templateUrl: './card-project.component.html',
   styleUrl: './card-project.component.scss',
 })
